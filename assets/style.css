@@ -1,7 +1,38 @@
-.looking {
+span.looking {
+    font-size: 2.5rem;
     font-family: 'Monoton', cursive;
 }
 
-body {
+body, body, header, #view {
+    height: 100%;
+}
+
+body {  
     background-color: #ffffff;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent;
+}
+
+body h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.jumbo {
+    width: 50%
+}
+
+ul li a {
+    list-style-type: none;
+}
+
+.jumbotron {
+    height: 50em;
+    padding: 15em;
+    background-size: 100% 100%;
 }
