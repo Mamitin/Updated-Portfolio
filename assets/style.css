@@ -46,9 +46,9 @@ h1 {
     font-size: 3em;
     text-transform: uppercase;
     font-weight: bolder;
-    color: red;
+    color: black;
 }
 
 .text-align-center {
-    text-align: center;
+    text-align: left;
 }
