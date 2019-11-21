@@ -1,6 +1,12 @@
 span.looking {
     font-size: 2.5rem;
     font-family: 'Monoton', cursive;
+    color: black;   
+    padding-left: 0;
+}
+
+.navbar-brand {
+    margin-left: 0;
 }
 
 body, body, header, #view {
@@ -13,10 +19,22 @@ body {
 
 .navbar:not(.top-nav-collapse) {
     background: transparent;
+    background-color: whitesmoke;
 }
 
 body h1, h2, h3, h4 {
     font-family: sans-serif;
+}
+
+.main-content {
+    margin-top: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin-top: 30px;
 }
 
 .navbar {
@@ -31,9 +49,11 @@ ul li a {
     list-style-type: none;
 }
 
+
 .jumbotron {
     height: 50em;
     padding: 15em;
+    padding-left: 0;
     background-size: 100% 100%;
 }
 
@@ -51,4 +71,30 @@ h1 {
 
 .text-align-center {
     text-align: left;
+}
+
+.img-fluid {
+    height: 220px;
+    width: 100%
+}
+
+.btn {
+    border: 2px solid white;
+    border-radius: 25%;
+    padding: 1em;
+    text-align: center;
+}
+
+.display {
+    padding-left: 15;
+}
+
+.main-content{
+    Margin-top: 15%;
+
+}
+
+.card {
+    margin-top: 25%;
+    margin-left: 15%;
 }
