@@ -4,6 +4,11 @@ span.looking {
     color: black;   
     padding-left: 0;
 }
+.display {
+    letter-spacing: 2px;
+    font-size: 45px;
+    line-height: 70px;
+}
 
 .navbar-brand {
     margin-left: 0;
