@@ -1,7 +1,7 @@
 span.looking {
     font-size: 2.5rem;
     font-family: 'Monoton', cursive;
-    color: black;   
+    color: whitesmoke;   
     padding-left: 0;
 }
 .display {
@@ -23,8 +23,8 @@ body {
 }
 
 .navbar:not(.top-nav-collapse) {
-    background: transparent;
-    background-color: whitesmoke;
+    /*background: transparent;*/
+    background-color: black;
     height: 15%;
 }
 
@@ -47,6 +47,10 @@ body h1, h2, h3, h4 {
     margin-bottom: 0;
     border-radius: 0;
 }
+ #a.nav-link {
+     color: black;
+ }
+ 
 .jumbo {
     width: 50%
 }
@@ -97,7 +101,6 @@ h1 {
 
 .main-content{
     Margin-top: 15%;
-
 }
 
 .card {
@@ -105,6 +108,26 @@ h1 {
     margin-left: 15%;
 }
 
-#footer {
-    height: 15%;
+#form {
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.btn-primary {
+    margin-left: 15%;
+}
+
+#bodyImg {
+    background-image: url(../assets/images/SF.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#bio-image {
+    height: 400px;
+    width: 300px;
+
 }
