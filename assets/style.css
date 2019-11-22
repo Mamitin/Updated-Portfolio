@@ -25,6 +25,7 @@ body {
 .navbar:not(.top-nav-collapse) {
     background: transparent;
     background-color: whitesmoke;
+    height: 15%;
 }
 
 body h1, h2, h3, h4 {
@@ -102,4 +103,8 @@ h1 {
 .card {
     margin-top: 25%;
     margin-left: 15%;
+}
+
+#footer {
+    height: 15%;
 }
