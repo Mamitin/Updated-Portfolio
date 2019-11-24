@@ -1,6 +1,6 @@
 span.looking {
     font-size: 2.5rem;
-    font-family: 'Monoton', cursive;
+    font-family: 'Monoton', sans-serif;
     color: #ff8686;   
     padding-left: 0;
     /*margin-left: 0;*/
@@ -48,7 +48,7 @@ body h1, h2, h3, h4 {
 
 .main-content {
     margin-top: 50%;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
     margin-right: 10%;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -98,9 +98,14 @@ h1 {
     text-align: left;
 }
 
-.img-fluid {
-    height: 220px;
-    width: 100%
+.img-fluid, .mask {
+    /*height: 220px;*/
+    width: 100%;
+    max-height: 156px;
+}
+
+.mask {
+height: 100%;
 }
 
 .btn {
@@ -129,6 +134,7 @@ h1 {
     Margin-top: 10%;
     background-color: #fafafa;
     width: 200%;
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     /* margin-right: auto;
@@ -150,13 +156,22 @@ h1 {
     
 }
 
+body.contactBody {
+background-image: url(../assets/images/SF.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*
 .bodyImg {
     background-image: url(../assets/images/SF.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-}
+}*/
 
 #bio-image {
     height: 400px;
@@ -195,13 +210,53 @@ p {
     margin: 0;
 }
 
+/*
 .contactBody {
     margin-top: 200px;
     margin-right: 400px;
     margin-left: 400px;
 }
+*/
 
 #getIn {
     text-align: right !important;
 }
 
+.navbar-toggler-icon {
+	background-color: pink;
+	color: #000;
+}
+
+.navbar-toggler-icon::before, .navbar-toggler-icon::after {
+	background-color: green;
+	color: orange;
+}
+div.overlay {
+  position: relative;
+}
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+    /*background-color: rgba(0,255,0,0.5);*/
+    color: black;
+    font-weight: bolder;
+    font-family: sans-serif;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+.mask:hover {
+	opacity: 1;
+}
+body.contactBody .whiteContainer {
+	width: 280px;
+	position: relative;
+	left: calc(50% - 140px);
+	top: 80px;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #fff;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
