@@ -18,9 +18,9 @@ span.looking {
     margin-left: 0;
 }
 
-body, body, header, #view {
+/*body, body, header, #view {
     height: 100%;
-}
+}*/
 
 body {  
     background-color: #ffffff;
@@ -111,26 +111,28 @@ h1 {
     background-color: #ff8686;
 }
 
-.col {
+/*.col {
     text-align: center;
 }
 
 #col-style {
     text-align: center;
+    padding-right: 15px;
 }
 
 .col-md-12 {
     max-width: 100%;
-}
+    float: left;
+}*/
 
 .main-content{
     Margin-top: 10%;
     background-color: #fafafa;
-    width: 100%;
+    width: 200%;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
 
 .card {
@@ -139,13 +141,13 @@ h1 {
 }
 
 #form {
-    margin-top: 15%;
+    margin-top: 50%;
     margin-left: 15%;
     margin-right: 15%;
 }
 
 .btn-primary {
-    margin-left: 15%;
+    
 }
 
 .bodyImg {
@@ -160,7 +162,6 @@ h1 {
     height: 400px;
     width: 400px;
     float: left;
-    margin-right: 15;
 }
 
 .row {
@@ -189,5 +190,18 @@ p {
     color: #ff8686;
 }
 
+#formContact {
+    width: 30%;
+    margin: 0;
+}
 
+.contactBody {
+    margin-top: 200px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+#getIn {
+    text-align: right !important;
+}
 
