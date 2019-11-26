@@ -2,9 +2,11 @@
 
 # UC Berkeley Fullstack Coding Bootcamp
 
-Activities, homework and project for UC Berkeley Coding Boot Camp. 
+This porfolio shows activities, homework and project for UC Berkeley Coding Boot Camp. It is a work in progress that I will continue to update.
 
-Work in progress.
+## Code snipit 
+This particular code is how I used ccs with my html to do an overlay on my portfolio page.
+<img src="assets/images/snipit.PNG">
 
 ## Currently working with:
 - Html
