@@ -2,7 +2,7 @@
 
 # UC Berkeley Fullstack Coding Bootcamp
 
-This porfolio shows activities, homework and project for UC Berkeley Coding Boot Camp. It is a work in progress that I will continue to update.
+This porfolio shows activities, homework and project for UC Berkeley Coding Boot Camp. It is a work in progress that I will continue to update. I plan to add social media links and more styling.
 
 ## Code snipit 
 This particular code is how I used ccs with my html to do an overlay on my portfolio page.
