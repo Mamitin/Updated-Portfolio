@@ -6,7 +6,7 @@ This porfolio shows activities, homework and project for UC Berkeley Coding Boot
 
 ## Code snipit 
 This particular code is how I used ccs with my html to do an overlay on my portfolio page.
-<img src="assets/images/snipit.PNG">
+<img src="./app/public/images/snipit.png">
 
 ## Currently working with:
 - Html
@@ -19,6 +19,9 @@ This particular code is how I used ccs with my html to do an overlay on my portf
 - Timers
 - API
 - Firebase
+- MySQL
+- Sequilize
+- Mongo
 
 ## Assignments (works in progress):
 

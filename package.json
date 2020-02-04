@@ -1,0 +1,25 @@
+{
+  "name": "Updated-Portfolio",
+  "version": "1.0.0",
+  "description": "This porfolio shows activities, homework and project for UC Berkeley Coding Boot Camp. It is a work in progress that I will continue to update. I plan to add social media links and more styling. Also to get scrollTop method to work.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mamitin/Updated-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mamitin/Updated-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Mamitin/Updated-Portfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
